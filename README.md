@@ -163,12 +163,3 @@ Spatial dataset of lobster TURFs in Quintana Roo compiled by Stuart.
 The workflow is documented in the repository `Makefile`.
 
 Running the scripts in the order described above reproduces the intermediate and final outputs.
-=======
-This cleans TURF data, more documentation coming soon
-
-![](map.png)
-
-# Workflow and dependencies
-
-![](dag.png)
->>>>>>> main
