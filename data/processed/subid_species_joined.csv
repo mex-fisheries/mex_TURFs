@@ -4,6 +4,7 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis rufescens,Red Abalone,445357
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis sorenseni,White Abalone,445362
+9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus spp.,Lobster,107060
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ALMEJA PISMO (Tlvela stuitorum),ALMEJA PISMO,Tivela stultorum,Pismo Clam,367761
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ALMEJA PATA DE MULA,ALMEJA PATA DE MULA,Anadara tuberculosa,Black Ark Clam,504313
 7_33,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
@@ -32,7 +33,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 7_9,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
 12_1,MX_C_012,S.C.P.P. EJIDO CORONEL ESTABAN CANTU,BC,ERIZO ROJO (Strongylocentrotus franclscanus),ERIZO ROJO,Mesocentrotus franciscanus,Red Sea Urchin,591102
 12_1,MX_C_012,S.C.P.P. EJIDO CORONEL ESTABAN CANTU,BC,ERIZO MORADO (Strongylocentrotus pupuratus),ERIZO MORADO,Strongylocentrotus purpuratus,Purple Sea Urchin,240747
-11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,NODATA,NODATA,NA,NA,NA
 10_1,MX_C_010,SALVADOR VALENCIA MEDINA,BC,ERIZO ROJO (Strongylocentrotus franclscanus),ERIZO ROJO,Mesocentrotus franciscanus,Red Sea Urchin,591102
 10_1,MX_C_010,SALVADOR VALENCIA MEDINA,BC,ERIZO MORADO (Strongylocentrotus pupuratus),ERIZO MORADO,Strongylocentrotus purpuratus,Purple Sea Urchin,240747
 7_15,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
@@ -43,7 +43,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 7_36,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
 7_35,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
 7_34,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
-17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,NODATA,NODATA,NA,NA,NA
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,ABULON (Haliotis spp.),ABULON,Haliotis cracherodii,Black Abalone,405012
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,ABULON (Haliotis spp.),ABULON,Haliotis corrugata,Pink Abalone,445308
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
@@ -60,8 +59,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,ABULON (Haliotis spp.),ABULON,Haliotis sorenseni,White Abalone,445362
 22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,OSTION DE ROCA (Crassostrea iridescens),OSTION DE ROCA,Striostrea prismatica,Rock Oyster,506739
 22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,CARACOL BURRO (Melongena Patula),CARACOL BURRO,Melongena patula,Pacific Crown Conch,567144
-212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,NODATA,NODATA,NA,NA,NA
-20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,NODATA,NODATA,NA,NA,NA
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,ABULON (Haliotis spp.),ABULON,Haliotis cracherodii,Black Abalone,405012
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,ABULON (Haliotis spp.),ABULON,Haliotis corrugata,Pink Abalone,445308
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
@@ -73,7 +70,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,PEPINO DE MAR,PEPINO DE MAR,Apostichopus parvimensis,Warty Sea Cucumber,529435
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,PEPINO DE MAR,PEPINO DE MAR,Holothuria (Cystipus) inhabilis,White Sea Cucumber,241825
 18_1,MX_C_018,S.C.P.P. EMANCIPACION,BCS,PEPINO DE MAR,PEPINO DE MAR,Holothuria (Thymiosycia) impatiens,Sea Cucumber,125185
-6_1,MX_C_006,S.C.P.P. PESCADORES NACIONALES DE ABULON,BCS,NODATA,NODATA,NA,NA,NA
 31_1,MX_C_031,S.C.P.P. CALIFORNIA DE SAN IGNACIO,BCS,ABULON (Haliotis spp.),ABULON,Haliotis cracherodii,Black Abalone,405012
 31_1,MX_C_031,S.C.P.P. CALIFORNIA DE SAN IGNACIO,BCS,ABULON (Haliotis spp.),ABULON,Haliotis corrugata,Pink Abalone,445308
 31_1,MX_C_031,S.C.P.P. CALIFORNIA DE SAN IGNACIO,BCS,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
@@ -98,7 +94,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 32_1,MX_C_032,S.C.P.P. LEYES DE REFORMA,BCS,PEPINO DE MAR,PEPINO DE MAR,Holothuria (Cystipus) inhabilis,White Sea Cucumber,241825
 32_1,MX_C_032,S.C.P.P. LEYES DE REFORMA,BCS,PEPINO DE MAR,PEPINO DE MAR,Holothuria (Thymiosycia) impatiens,Sea Cucumber,125185
 32_1,MX_C_032,S.C.P.P. LEYES DE REFORMA,BCS,PULPO,PULPO,Octopus vulgaris,Common Octopus,140605
-30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,NODATA,NODATA,NA,NA,NA
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,ABULON (Haliotis spp.),ABULON,Haliotis cracherodii,Black Abalone,405012
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,ABULON (Haliotis spp.),ABULON,Haliotis corrugata,Pink Abalone,445308
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
@@ -313,19 +308,42 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 208_1,MX_C_208,S.C.P.P. LAGUNA DE CHILA,VER,JAIBA (Callinectes spp),JAIBA,Callinectes sapidus,Blue Crab,107379
 210_1,MX_C_210,S.C.P.P. MARIA ANTONIETA,VER,JAIBA (Callinectes spp),JAIBA,Callinectes rathbunae,Sharptooth Swimming Crab,422039
 210_1,MX_C_210,S.C.P.P. MARIA ANTONIETA,VER,JAIBA (Callinectes spp),JAIBA,Callinectes sapidus,Blue Crab,107379
-22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus gracilis,Green Spiny Lobster,382895
 22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus inflatus,Blue Spiny Lobster,382897
 22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
-22_1,MX_C_022,S.C.P.P. GENERAL MELITON ALBAÑEZ,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus penicillatus,Pronghorn Spiny Lobster,210358
-25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus gracilis,Green Spiny Lobster,382895
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus inflatus,Blue Spiny Lobster,382897
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
-25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus penicillatus,Pronghorn Spiny Lobster,210358
-29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus gracilis,Green Spiny Lobster,382895
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus inflatus,Blue Spiny Lobster,382897
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
-29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus penicillatus,Pronghorn Spiny Lobster,210358
-9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus gracilis,Green Spiny Lobster,382895
-9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus inflatus,Blue Spiny Lobster,382897
-9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
-9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus penicillatus,Pronghorn Spiny Lobster,210358
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ABULON AMARILLO,ABULON AMARILLO,Haliotis corrugata,Pink Abalone,445308
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ERIZO ROJO,ERIZO ROJO,Mesocentrotus franciscanus,Red Sea Urchin,591102
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ERIZO MORADO,ERIZO MORADO,Strongylocentrotus purpuratus,Purple Sea Urchin,240747
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ALGAS MARINAS,ALGAS MARINAS,Gelidium,Red Algae,144135
+11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,SARGAZO ROJO,SARGAZO ROJO,Gelidium robustum,Red Algae,372718
+17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,ABULON AMARILLO,ABULON AMARILLO,Haliotis corrugata,Pink Abalone,445308
+17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898
+17_1,MX_C_017,S.C.P.P. BUZOS Y PESCADORES DE LA BAJA CALIFORNIA,BCS,SARGAZO ROJO,SARGAZO ROJO,Gelidium robustum,Red Algae,372718
+20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898
+20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,PULPO,PULPO,Octopus vulgaris,Common Octopus,140605
+20_1,MX_C_020,S.C.P.P. BAHIA TORTUGAS,BCS,SARGAZO ROJO,SARGAZO ROJO,Gelidium robustum,Red Algae,372718
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,ABULON AMARILLO,ABULON AMARILLO,Haliotis corrugata,Pink Abalone,445308
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,LANGOSTA AZUL,LANGOSTA AZUL,Panulirus inflatus,Blue Spiny Lobster,382897
+212_1,MX_C_212,S.C.P.P. PROGRESO DE PRODUCCION PESQUERA,BCS,PULPO,PULPO,Octopus vulgaris,Common Octopus,140605
+30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898
+30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,LANGOSTA AZUL,LANGOSTA AZUL,Panulirus inflatus,Blue Spiny Lobster,382897
+30_1,MX_C_030,S.C.P.P. PUNTA ABREOJOS,BCS,PULPO,PULPO,Octopus vulgaris,Common Octopus,140605
+6_1,MX_C_006,S.C.P.P. PESCADORES NACIONALES DE ABULON,BCS,ABULON AMARILLO,ABULON AMARILLO,Haliotis corrugata,Pink Abalone,445308
+6_1,MX_C_006,S.C.P.P. PESCADORES NACIONALES DE ABULON,BCS,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
+6_1,MX_C_006,S.C.P.P. PESCADORES NACIONALES DE ABULON,BCS,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
+6_1,MX_C_006,S.C.P.P. PESCADORES NACIONALES DE ABULON,BCS,LANGOSTA ROJA,LANGOSTA ROJA,Panulirus interruptus,California Spiny Lobster,382898

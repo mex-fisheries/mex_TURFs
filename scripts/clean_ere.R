@@ -109,43 +109,107 @@ subid_species_joined <- subid_species_joined %>%
   ) %>%
   bind_rows(callinectes_exception)
 # ------------------------------------------------------------------
-# Resolve Panulirus exception
+# Resolve Panulirus exceptions
 #
-# Generic Panulirus spp. records occur only in BC and BCS.
-# Based on the Carta Nacional Pesquera these are 
-# expanded to the four Pacific Panulirus species: 
+# RNPA landings identify red and blue lobster for sub_ids
+# 22_1, 25_1, and 29_1. The species for 9_1 is unresolved.
 # ------------------------------------------------------------------
 
 panulirus_exception <- subid_species_joined %>%
   filter(
-    scientific_name == "Panulirus spp.",
-    state %in% c("BC", "BCS")
+    sub_id %in% c("22_1", "25_1", "29_1"),
+    scientific_name == "Panulirus spp."
   ) %>%
   select(sub_id, turf_id, coop, state, species, common_name_spanish) %>%
   tidyr::crossing(
     tibble::tibble(
       scientific_name = c(
         "Panulirus interruptus",
-        "Panulirus inflatus",
-        "Panulirus gracilis",
-        "Panulirus penicillatus"
+        "Panulirus inflatus"
       ),
       common_name_english = c(
         "California Spiny Lobster",
-        "Blue Spiny Lobster",
-        "Green Spiny Lobster",
-        "Pronghorn Spiny Lobster"
+        "Blue Spiny Lobster"
       ),
-      aphia_id = c("382898", "382897", "382895", "210358")
+      aphia_id = c("382898", "382897")
     )
   )
 
 subid_species_joined <- subid_species_joined %>%
   filter(
-    !(scientific_name == "Panulirus spp." &
-        state %in% c("BC", "BCS"))
+    !(sub_id %in% c("22_1", "25_1", "29_1") &
+        scientific_name == "Panulirus spp.")
   ) %>%
   bind_rows(panulirus_exception)
+# ------------------------------------------------------------------
+# Add target species for TURFs previously listed as NODATA
+#
+# Species were identified using RNPA landings.
+# ------------------------------------------------------------------
+
+#get TURF info for the 6 NODATA sub_ids
+nodata_turfs <- ere_working %>%
+  st_drop_geometry() %>%
+  filter(
+    sub_id %in% c(
+      "11_1", "17_1", "20_1",
+      "212_1", "30_1", "6_1"
+    )
+  ) %>%
+  select(sub_id, turf_id, coop, state) %>%
+  distinct()
+
+#assign AphiaIDs from RNPA landings for each subid
+nodata_species <- tibble(
+  sub_id = c(
+    "11_1",
+    "17_1",
+    "20_1",
+    "212_1",
+    "30_1",
+    "6_1"
+  ),
+  aphia_id = list(
+    c("445308", "445325", "528084", "591102", "240747", "382898", "144135", "372718"),
+    c("445308", "445325", "528084", "382898", "372718"),
+    c("445325", "528084", "382898", "140605", "372718"),
+    c("445308", "445325", "528084", "382898", "382897", "140605"),
+    c("445325", "528084", "382898", "382897", "140605"),
+    c("445308", "445325", "528084", "382898")
+  )
+)
+
+
+# Put each AphiaID in its own row and add species info from lookup
+nodata_species <- nodata_species %>%
+  unnest(aphia_id) %>%
+  left_join(
+    unique_spp_lookup_clean %>%
+      filter(common_name_spanish != "ABULON"), #Remove generic ABULON names so the specie-specific names are used
+    by = "aphia_id"
+  )
+
+# Add TURF info to the new species records
+nodata_species <- nodata_species %>%
+  left_join(
+    nodata_turfs,
+    by = "sub_id"
+  )
+
+# Add species column to match the existing data
+nodata_species <- nodata_species %>%
+  mutate(species = common_name_spanish)
+
+# Replace NODATA rows with the new species records
+subid_species_joined <- subid_species_joined %>%
+  filter(
+    !(sub_id %in% c("11_1", "17_1", "20_1", "212_1", "30_1", "6_1") &
+        species == "NODATA")
+  ) %>%
+  bind_rows(
+    nodata_species %>%
+      select(all_of(names(subid_species_joined)))
+  )
 # ------------------------------------------------------------------
 # Export cleaned TURF-species table
 #
