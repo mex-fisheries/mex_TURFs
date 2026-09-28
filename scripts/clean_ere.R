@@ -112,7 +112,9 @@ subid_species_joined <- subid_species_joined %>%
 # Resolve Panulirus exceptions
 #
 # RNPA landings identify red and blue lobster for sub_ids
-# 22_1, 25_1, and 29_1. The species for 9_1 is unresolved.
+# 22_1, 25_1, and 29_1. 
+# 9_1 targets lobster in northern BC, so assign
+# Panulirus interruptus based on CNP. 
 # ------------------------------------------------------------------
 
 panulirus_exception <- subid_species_joined %>%
@@ -135,12 +137,30 @@ panulirus_exception <- subid_species_joined %>%
     )
   )
 
+# 9_1 is in northern Baja California, so use red lobster
+panulirus_9 <- subid_species_joined %>%
+  filter(
+    sub_id == "9_1",
+    scientific_name == "Panulirus spp."
+  ) %>%
+  select(sub_id, turf_id, coop, state, species, common_name_spanish) %>%
+  mutate(
+    scientific_name = "Panulirus interruptus",
+    common_name_english = "California Spiny Lobster",
+    aphia_id = "382898"
+  )
+
+# Remove the generic Panulirus rows and replace them
+# with the species assignments above
 subid_species_joined <- subid_species_joined %>%
   filter(
-    !(sub_id %in% c("22_1", "25_1", "29_1") &
+    !(sub_id %in% c("9_1", "22_1", "25_1", "29_1") &
         scientific_name == "Panulirus spp.")
   ) %>%
-  bind_rows(panulirus_exception)
+  bind_rows(
+    panulirus_exception,
+    panulirus_9
+  )
 # ------------------------------------------------------------------
 # Add target species for TURFs previously listed as NODATA
 #

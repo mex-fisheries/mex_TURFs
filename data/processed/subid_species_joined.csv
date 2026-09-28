@@ -4,7 +4,6 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis fulgens,Green Abalone,445325
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis rufescens,Red Abalone,445357
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ABULON (Haliotis spp.),ABULON,Haliotis sorenseni,White Abalone,445362
-9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus spp.,Lobster,107060
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ALMEJA PISMO (Tlvela stuitorum),ALMEJA PISMO,Tivela stultorum,Pismo Clam,367761
 9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,ALMEJA PATA DE MULA,ALMEJA PATA DE MULA,Anadara tuberculosa,Black Ark Clam,504313
 7_33,MX_C_007,AGARMEX,BC,SARGAZO ROJO (Gelidium robustum),SARGAZO ROJO,Gelidium robustum,Red Algae,372718
@@ -314,6 +313,7 @@ sub_id,turf_id,coop,state,species,common_name_spanish,scientific_name,common_nam
 25_1,MX_C_025,S.C.P.P. PUERTO SAN CARLOS,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus inflatus,Blue Spiny Lobster,382897
 29_1,MX_C_029,S.C.P.P. EJIDAL CADEJE,BCS,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
+9_1,MX_C_009,S.C.P.P. 19 DE SEPTIEMBRE,BC,LANGOSTA (Panulirus spp.),LANGOSTA,Panulirus interruptus,California Spiny Lobster,382898
 11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ABULON AMARILLO,ABULON AMARILLO,Haliotis corrugata,Pink Abalone,445308
 11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,ABULON AZUL,ABULON AZUL,Haliotis fulgens,Green Abalone,445325
 11_1,MX_C_011,S.C.P.P. REGASA NUM. 2,BC,CARACOL PANOCHA,CARACOL PANOCHA,Megastraea undosa,Wavy Turban Snail,528084
